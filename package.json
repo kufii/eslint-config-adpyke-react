@@ -1,0 +1,24 @@
+{
+  "name": "eslint-config-adpyke-react",
+  "version": "1.0.0",
+  "description": "Highly opinionated ESLint config for React projects.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "eslint",
+    "es6",
+    "ecmascript6",
+    "react"
+  ],
+  "author": "Adrien Pyke",
+  "license": "ISC",
+  "dependencies": {
+    "eslint-config-adpyke-es6": "^1.4.2"
+  },
+  "peerDependencies": {
+    "eslint": ">= 5.6.0",
+    "eslint-plugin-react": ">= 7.12.0"
+  }
+}
