@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-adpyke-react",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "Highly opinionated ESLint config for React projects.",
   "main": "index.js",
   "scripts": {
