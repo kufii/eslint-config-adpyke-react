@@ -38,7 +38,7 @@ module.exports = {
 		'react/no-unused-prop-types': 2,
 		'react/no-unused-state': 2,
 		'react/prefer-es6-class': 2,
-		'react/state-in-constructor': [2, 'never'],
+		// 'react/state-in-constructor': [2, 'never'],
 		'react/style-prop-object': 2
 	}
 };
