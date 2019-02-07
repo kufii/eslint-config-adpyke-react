@@ -24,7 +24,6 @@ module.exports = {
 		'react/jsx-curly-spacing': 1,
 		'react/jsx-equals-spacing': 1,
 		'react/jsx-first-prop-new-line': 1,
-		'react/jsx-handler-names': 1,
 		'react/jsx-curly-brace-presence': 1,
 		'react/jsx-props-no-multi-spaces': 1,
 		'react/jsx-space-before-closing': 1,
