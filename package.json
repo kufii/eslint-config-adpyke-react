@@ -19,7 +19,7 @@
   "author": "Adrien Pyke",
   "license": "ISC",
   "dependencies": {
-    "eslint-config-adpyke-es6": "^1.4.2"
+    "eslint-config-adpyke-es6": "^1.4.4"
   },
   "peerDependencies": {
     "babel-eslint": ">= 1.0.0",
