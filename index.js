@@ -14,7 +14,8 @@ module.exports = {
 		'node': true
 	},
 	'plugins': [
-		'react'
+		'react',
+		'react-hooks'
 	],
 	'rules': {
 		'react/self-closing-comp': 1,
