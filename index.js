@@ -1,23 +1,20 @@
 'use strict';
 
 module.exports = {
-	'parser': 'babel-eslint',
-	'extends': ['adpyke-es6', 'plugin:react/recommended'],
-	'parserOptions': {
-		'sourceType': 'module',
-		'ecmaFeatures': {
-			'jsx': true
+	parser: 'babel-eslint',
+	extends: ['adpyke-es6', 'plugin:react/recommended'],
+	parserOptions: {
+		sourceType: 'module',
+		ecmaFeatures: {
+			jsx: true
 		}
 	},
-	'env': {
-		'browser': false,
-		'node': true
+	env: {
+		browser: false,
+		node: true
 	},
-	'plugins': [
-		'react',
-		'react-hooks'
-	],
-	'rules': {
+	plugins: ['react', 'react-hooks'],
+	rules: {
 		'react/self-closing-comp': 1,
 		'react/jsx-closing-bracket-location': 1,
 		'react/jsx-boolean-value': 1,
@@ -38,7 +35,8 @@ module.exports = {
 		'react/no-unused-prop-types': 1,
 		'react/no-unused-state': 1,
 		'react/prefer-es6-class': 2,
-		// 'react/state-in-constructor': [2, 'never'],
-		'react/style-prop-object': 2
+		'react/style-prop-object': 2,
+		'react-hooks/rules-of-hooks': 2,
+		'react-hooks/exhaustive-deps': 1
 	}
 };

@@ -1,10 +1,10 @@
 {
-	"extends": "adpyke-es6",
-	"env": {
-		"browser": false,
-		"node": true
-	},
-	"rules": {
-		"quote-props": 0
-	}
+  "extends": "adpyke-es6",
+  "env": {
+    "browser": false,
+    "node": true
+  },
+  "rules": {
+    "quote-props": 0
+  }
 }
