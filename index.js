@@ -24,7 +24,6 @@ module.exports = {
 		'react/jsx-first-prop-new-line': 1,
 		'react/jsx-curly-brace-presence': 1,
 		'react/jsx-props-no-multi-spaces': 1,
-		'react/jsx-space-before-closing': 1,
 		'react/jsx-fragments': 2,
 		'react/jsx-pascal-case': 1,
 		'react/jsx-tag-spacing': 1,
