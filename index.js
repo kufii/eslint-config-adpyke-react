@@ -14,6 +14,9 @@ module.exports = {
 		node: true
 	},
 	plugins: ['react', 'react-hooks'],
+	settings: {
+		version: 'detect'
+	},
 	rules: {
 		'react/self-closing-comp': 1,
 		'react/jsx-closing-bracket-location': 1,
