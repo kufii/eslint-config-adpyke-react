@@ -15,7 +15,9 @@ module.exports = {
 	},
 	plugins: ['react', 'react-hooks'],
 	settings: {
-		version: 'detect'
+		react: {
+			version: 'detect'
+		}
 	},
 	rules: {
 		'react/self-closing-comp': 1,
